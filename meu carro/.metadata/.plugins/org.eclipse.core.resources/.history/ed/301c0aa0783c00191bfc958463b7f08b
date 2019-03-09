@@ -1,0 +1,23 @@
+package meuCarro;
+
+public class carro {
+
+	private String marca;
+	private boolean ligado;
+	private int velocidade;
+	private int marcha;
+
+	public carro() {
+
+	}
+
+	public carro(String marca, boolean ligado, int velocidade, int marcha) {
+
+		this.marca = marca;
+		this.ligado = ligado;
+		this.velocidade = velocidade;
+		this.marcha = marcha;
+	}
+
+}
+
